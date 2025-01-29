@@ -19,15 +19,15 @@ const ContactUs = () => {
                     />
                 </Link>
             </div>
-            <div className="p-4 md:p-16 space-y-6 text-center overflow-hidden  ">
+            <div className="p-4 md:p-16 space-y-2 text-center overflow-hidden  ">
 
-                <p className="text-2xl font-bold">Contactanos</p>
+                <p className="text-2xl font-bold pb-4">Contactanos</p>
                 <p><b>Sucursal 1</b> San martin 2449, Las Heras, Mendoza</p>
-                <p><b>Horario:</b> Lunes a Viernes de 8 a 13 hs.</p>
-                <p><b>Sucursal 2</b> Independencia 2121, Las Heras, Mendoza</p>
-                <p><b>Horario:</b> Lunes a Viernes de 8 a 14 hs.</p>
+                <p><i>Horario: Lunes a Viernes de 8 a 13 hs.</i></p>
+                <p className="pt-6"><b>Sucursal 2</b> Independencia 2121, Las Heras, Mendoza</p>
+                <p><i>Horario: Lunes a Viernes de 8 a 14 hs.</i></p>
 
-                <p><b>WhatsApp:</b> 2615 44-9599</p>
+                <p className="pt-6"><b>WhatsApp:</b> 2615 44-9599</p>
 
                 <p><b>Email:</b> doninodoroarticulosdelimpieza@gmail.com</p>
 

@@ -5,7 +5,7 @@ const MainBarButton = ({ logo, text,  description2 }) => {
       border-2 border-darkColor bg-secundary
       hover:bg-darkColor hover:text-secundary
       ">
-        <div>{logo}</div>
+        <div className="text-liveColor">{logo}</div>
         <div className="my-auto">
           {/*para pasar classname como prop:  <p className={classType}><b>{text}</b></p> */}
           <p className="text-sm md:text-base">
