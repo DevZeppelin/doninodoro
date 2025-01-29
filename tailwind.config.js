@@ -11,10 +11,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/hero.webp')",
-        'hero-contacto': "url('/hero-contacto.jpg')",
-        'hero-fixed': "url('/fixed.png')",
-        'hero-mobile': "url('/mobile.jpg')",
-        'hero-mobile2': "url('/mobile2.jpg')",
+        'hero-contacto': "url('/hero-contacto.webp')",
+        'hero-fixed': "url('/fixed.webp')",
+        'hero-mobile': "url('/mobile.webp')",
+        'hero-mobile2': "url('/mobile2.webp')",
 
       },
       colors: {

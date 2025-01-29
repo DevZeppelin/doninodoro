@@ -16,7 +16,7 @@ export default function Nosotros() {
 
         <div>
           <div className="flex flex-col md:flex-row p-8 md:p-24 gap-8">
-            <Image src="/01.jpg" width={400} height={400} />
+            <Image src="/01.webp" width={400} height={400} />
             <div className="flex items-center justify-center p-8 md:p-24">
               <p>
                 En Don Inodoro entendemos que un hogar limpio es un hogar feliz. Por eso, nos dedicamos a ofrecerte una amplia gama de productos de limpieza diseñados para satisfacer tus necesidades. Con más de 12 años de experiencia en el mercado, hemos construido una relación de confianza con nuestros clientes, basada en la calidad de nuestros productos y en un servicio personalizado.

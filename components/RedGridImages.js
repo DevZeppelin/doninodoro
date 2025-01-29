@@ -5,7 +5,7 @@ import RedGridTextComponent from "./RedGridTextComponent";
 const RedGridImages = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3">
-      <RedGridPhotoComponent src="/01.jpg" />
+      <RedGridPhotoComponent src="/01.webp" />
       <RedGridTextComponent
         bg="bg-mainColor bg-opacity-50" 
 
@@ -21,7 +21,7 @@ const RedGridImages = () => {
         title="Nuestros productos"
         text="Descubre una gama diseñada para superar tus expectativas. ¡Escribinos al whatsapp y ahí mismo podrás ver nuestro catàlogo de productos! Tu consulta no molesta."
       />
-      <RedGridPhotoComponent src="/03.jpg" />
+      <RedGridPhotoComponent src="/03.webp" />
       <RedGridTextComponent
         bg="bg-mainColor bg-opacity-90" 
         index="03"
@@ -35,7 +35,7 @@ const RedGridImages = () => {
         title="Atención personalizada"
         text="Tu satisfacción es nuestra prioridad. Un equipo experto listo para asesorarte y resolver cualquier duda. ¡Limpieza a tu medida!"
       />
-      <RedGridPhotoComponent src="/04.jpg" />
+      <RedGridPhotoComponent src="/04.webp" />
     </div>
   );
 }
