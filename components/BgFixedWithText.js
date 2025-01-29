@@ -1,10 +1,22 @@
+import { useEffect, useState } from "react";
+
 
 const BgFixedWithText = () => {
+
+const [bgClass, setBgClass] = useState("bg-fixed");
+
+  useEffect(() => {
+    if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+      setBgClass("bg-local");
+    }
+  }, []);
+
+
   return (
-    <div className="h-[90vh] md:h-[60vh] 
-    bg-hero-mobile md:bg-hero-fixed bg-fixed bg-cover 
+    <div className={`h-[90vh] md:h-[60vh] 
+    bg-hero-mobile md:bg-hero-fixed ${bgClass} bg-cover 
     flex items-center md:justify-end
-    mt-24">
+    mt-24`}>
 
 <div className="grid grid-cols-1 md:grid-cols-2">
   
