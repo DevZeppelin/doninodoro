@@ -9,12 +9,12 @@ const ContactUs = () => {
             id="contacto"
             className="grid grid-cols-1 md:grid-cols-3 p-8 gap-8"
         >
-            <div className="flex justify-center mx-auto p-8">
+            <div className="flex items-center justify-center mx-auto p-8">
                 <Link href="/">
                     <Image
                         src="/logo.webp"
-                        width={400}
-                        height={400}
+                        width={350}
+                        height={350}
                         alt="mza-cars-logo"
                     />
                 </Link>

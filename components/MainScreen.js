@@ -12,7 +12,8 @@ const MainScreen = () => {
 
   return (
     // <div className="h-[90vh] md:h-[60vh] bg-hero-mobile2 md:bg-hero-pattern bg-fixed bg-cover flex items-center md:justify-end">
-    <div className={`h-[90vh] md:h-[60vh] bg-hero-mobile2 md:bg-hero-pattern ${bgClass} bg-cover flex items-center md:justify-end`}>
+    <div className={`h-[90vh] md:h-[60vh] bg-hero-mobile2 md:bg-hero-pattern ${bgClass} 
+    bg-cover flex items-center md:items-start md:justify-end`}>
     
       <span
         className="text-secundary text-5xl md:text-6xl p-8 md:p-16 text-right"

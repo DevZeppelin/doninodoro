@@ -10,10 +10,10 @@ const MainTopScreen = ({ toggleNav, open }) => {
       <Link href="/">
         <Image
           src="/logo.webp"
-          width={250}
-          height={300}
+          width={350}
+          height={360}
           alt="don-inodoro-logo"
-          className="p-2 md:my-2  "
+          className="p-4 my-3 animate-logo"
         />
       </Link>
 

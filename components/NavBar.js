@@ -3,7 +3,7 @@ import React from 'react'
 
 const NavBar = ({textColor}) => {
   return (
-    <div className={`hidden md:flex gap-4 my-auto ${textColor} font-extrabold text-xl`}>
+    <div className={`hidden md:flex gap-4 my-auto ${textColor} font-extrabold text-2xl`}>
       <Link href="/" className='hover:text-liveColor'>
         <div>Home</div>
       </Link>
