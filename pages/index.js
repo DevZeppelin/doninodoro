@@ -12,7 +12,7 @@ export default function Index() {
   return (
     <div>
       <Head>
-        <title>Don Inodoro Sistemas</title>
+        <title>Don Inodoro - Art de limpieza</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
